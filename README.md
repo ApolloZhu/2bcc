@@ -1,2 +1,7 @@
-# 2bcc
-Convert subtitle files to bilibili closed caption (bcc) format
+# bcc
+
+Abstraction of the bilibili closed caption (bcc) format.
+
+## 2bcc
+
+A tool to convert srt (subrip) files to bcc files.
