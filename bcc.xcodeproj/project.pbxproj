@@ -77,7 +77,7 @@
       };
       "OBJ_10" = {
          isa = "PBXFileReference";
-         path = "BCC.swift";
+         path = "Definitions.swift";
          sourceTree = "<group>";
       };
       "OBJ_100" = {
@@ -118,16 +118,9 @@
          );
       };
       "OBJ_11" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_12",
-            "OBJ_13",
-            "OBJ_14",
-            "OBJ_15"
-         );
-         name = "2bcc";
-         path = "Sources/2bcc";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "Encoding.swift";
+         sourceTree = "<group>";
       };
       "OBJ_110" = {
          isa = "XCConfigurationList";
@@ -276,16 +269,16 @@
       };
       "OBJ_119" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_9";
+         fileRef = "OBJ_14";
       };
       "OBJ_12" = {
          isa = "PBXFileReference";
-         path = "CommandLine.swift";
+         path = "main.swift";
          sourceTree = "<group>";
       };
       "OBJ_120" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_10";
+         fileRef = "OBJ_15";
       };
       "OBJ_121" = {
          isa = "PBXFrameworksBuildPhase";
@@ -357,9 +350,14 @@
          fileRef = "OBJ_6";
       };
       "OBJ_13" = {
-         isa = "PBXFileReference";
-         path = "Definitions.swift";
-         sourceTree = "<group>";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_14",
+            "OBJ_15"
+         );
+         name = "bcc";
+         path = "Sources/bcc";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_131" = {
          isa = "XCConfigurationList";
@@ -474,7 +472,7 @@
       };
       "OBJ_14" = {
          isa = "PBXFileReference";
-         path = "Encoding.swift";
+         path = "BCC+SRT.swift";
          sourceTree = "<group>";
       };
       "OBJ_140" = {
@@ -593,7 +591,7 @@
       };
       "OBJ_15" = {
          isa = "PBXFileReference";
-         path = "main.swift";
+         path = "BCC.swift";
          sourceTree = "<group>";
       };
       "OBJ_150" = {
@@ -733,15 +731,15 @@
             "OBJ_24",
             "OBJ_25"
          );
-         name = "srt 1.0.0";
-         path = ".build/checkouts/srt.git--8965443637628123509/Sources";
+         name = "srt 1.0.1";
+         path = ".build/checkouts/srt.git--1854664023478066253/Sources";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_22" = {
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/srt.git--8965443637628123509/Package.swift";
+         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/srt.git--1854664023478066253/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_23" = {
@@ -776,14 +774,14 @@
             "OBJ_38"
          );
          name = "Rainbow 3.1.4";
-         path = ".build/checkouts/Rainbow.git-208604798073090910/Sources";
+         path = ".build/checkouts/Rainbow.git--6528671170675122793/Sources";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_27" = {
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/Rainbow.git-208604798073090910/Package.swift";
+         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/Rainbow.git--6528671170675122793/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_28" = {
@@ -930,7 +928,7 @@
             "OBJ_43"
          );
          name = "CommandLineKit";
-         path = ".build/checkouts/CommandLine.git--6824177327336393630/CommandLineKit";
+         path = ".build/checkouts/CommandLine.git-8830191730827454561/CommandLineKit";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_41" = {
@@ -952,17 +950,17 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/CommandLine.git--6824177327336393630/Package.swift";
+         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/CommandLine.git-8830191730827454561/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_45" = {
          isa = "PBXGroup";
          children = (
+            "bcc::bcc::Product",
             "bcc::bccTests::Product",
             "CommandLine::CommandLineKit::Product",
-            "Rainbow::Rainbow::Product",
-            "bcc::bcc::Product",
             "bcc::2bcc::Product",
+            "Rainbow::Rainbow::Product",
             "srt::srt::Product"
          );
          name = "Products";
@@ -1071,15 +1069,15 @@
       };
       "OBJ_57" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_12";
+         fileRef = "OBJ_9";
       };
       "OBJ_58" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
+         fileRef = "OBJ_10";
       };
       "OBJ_59" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_14";
+         fileRef = "OBJ_11";
       };
       "OBJ_6" = {
          isa = "PBXFileReference";
@@ -1089,7 +1087,7 @@
       };
       "OBJ_60" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_15";
+         fileRef = "OBJ_12";
       };
       "OBJ_61" = {
          isa = "PBXFrameworksBuildPhase";
@@ -1128,7 +1126,7 @@
          isa = "PBXGroup";
          children = (
             "OBJ_8",
-            "OBJ_11"
+            "OBJ_13"
          );
          name = "Sources";
          path = "";
@@ -1180,10 +1178,12 @@
          isa = "PBXGroup";
          children = (
             "OBJ_9",
-            "OBJ_10"
+            "OBJ_10",
+            "OBJ_11",
+            "OBJ_12"
          );
-         name = "bcc";
-         path = "Sources/bcc";
+         name = "2bcc";
+         path = "Sources/2bcc";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_80" = {
@@ -1314,7 +1314,7 @@
       };
       "OBJ_9" = {
          isa = "PBXFileReference";
-         path = "BCC+SRT.swift";
+         path = "CommandLine.swift";
          sourceTree = "<group>";
       };
       "OBJ_90" = {
