@@ -10,37 +10,27 @@ import Rainbow
 import bcc
 import srt
 
-struct Parameters {
-    let inputPath: String
-    let inputFormat: InputFileFormat
-    let inputEncoding: String.Encoding
-    let outputPath: String
-    let isVerbose: Bool
-}
+let version = "1.0.1"
 
-func convert() throws {
-    let args = readParameters()
-
+func convert(options: ConvertCommand.Options) throws {
     let bcc: BCC
-
-    print("Converting \(args.inputPath)")
-
-    switch args.inputFormat {
+    
+    print("Converting ".bold.blue + options.inputPath)
+    
+    switch options.inputFormat {
     case .srt:
-        let srt = try SRT(path: args.inputPath, stringEncoding: args.inputEncoding)
-        bcc = try BCC(srt: srt, verbose: args.isVerbose)
+        let srt = try SRT(
+            path: options.inputPath,
+            stringEncoding: String.Encoding(options.inputEncoding)
+        )
+        bcc = try BCC(srt: srt, verbose: options.isVerbose)
     }
-
-    print("Saving to: \(args.outputPath)")
-
-    try bcc.write(to: URL(fileURLWithPath: args.outputPath))
-
-    print("Done".green)
+    
+    print("Saving to: ".bold.blue + options.outputPath)
+    
+    try bcc.write(to: URL(fileURLWithPath: options.outputPath))
+    
+    print("Done".bold.green)
 }
 
-do {
-    try convert()
-} catch {
-    print(error.localizedDescription.red.bold)
-    exit(Int32((error as NSError).code))
-}
+CommandLine.main()
