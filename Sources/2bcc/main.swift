@@ -23,7 +23,7 @@ func convert(options: ConvertCommand.Options) throws {
             path: options.inputPath,
             stringEncoding: String.Encoding(options.inputEncoding)
         )
-        bcc = try BCC(srt: srt, verbose: options.isVerbose)
+        bcc = try BCC(srt: srt)
     }
     
     print("Saving to: ".bold.blue + options.outputPath)

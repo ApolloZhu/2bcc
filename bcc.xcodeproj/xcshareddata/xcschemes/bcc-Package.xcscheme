@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "bcc::bcc"
-               BuildableName = "bcc.framework"
-               BlueprintName = "bcc"
+               BlueprintIdentifier = "bcc::2bcc"
+               BuildableName = "2bcc"
+               BlueprintName = "2bcc"
                ReferencedContainer = "container:bcc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "bcc::2bcc"
-               BuildableName = "2bcc"
-               BlueprintName = "2bcc"
+               BlueprintIdentifier = "bcc::bcc"
+               BuildableName = "bcc.framework"
+               BlueprintName = "bcc"
                ReferencedContainer = "container:bcc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -69,9 +69,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "bcc::bcc"
-            BuildableName = "bcc.framework"
-            BlueprintName = "bcc"
+            BlueprintIdentifier = "bcc::2bcc"
+            BuildableName = "2bcc"
+            BlueprintName = "2bcc"
             ReferencedContainer = "container:bcc.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -8,7 +8,7 @@
 import srt
 
 extension BCC {
-    public init(srt: SRT, verbose: Bool) throws {
+    public init(srt: SRT) throws {
         self.init(body: srt.body.map {
             BCC.Subtitle(
                 from: $0.startTime,

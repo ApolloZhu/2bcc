@@ -5,9 +5,13 @@
 //  Created by Apollo Zhu on 10/19/18.
 //
 
+#if swift(>=5)
+// #if swift(<5) won't work because it's introduced in Swift 5
+#else
 extension Never: Error {
     public var localizedDescription: String { fatalError("Never") }
 }
+#endif
 
 import Result
 
