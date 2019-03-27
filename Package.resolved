@@ -51,8 +51,8 @@
         "repositoryURL": "https://github.com/ApolloZhu/srt.git",
         "state": {
           "branch": null,
-          "revision": "ddb804233955fcadd9f29efae6ae77a46b10dd35",
-          "version": "1.0.1"
+          "revision": "f0cdd83b5f4dcca5901961433d888833a3677a9c",
+          "version": "1.1.0"
         }
       }
     ]

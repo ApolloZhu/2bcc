@@ -136,7 +136,7 @@
                "-target",
                "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
             SWIFT_VERSION = "4.0";
          };
@@ -154,7 +154,7 @@
                "-target",
                "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
             SWIFT_VERSION = "4.0";
          };
@@ -191,12 +191,10 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "bcc.xcodeproj/Rainbow_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -215,8 +213,6 @@
             );
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "Rainbow";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Debug";
       };
@@ -232,12 +228,10 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "bcc.xcodeproj/Rainbow_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -256,8 +250,6 @@
             );
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "Rainbow";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Release";
       };
@@ -362,7 +354,7 @@
                "-target",
                "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
             SWIFT_VERSION = "4.0";
          };
@@ -380,7 +372,7 @@
                "-target",
                "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
             SWIFT_VERSION = "4.0";
          };
@@ -543,7 +535,7 @@
                "-target",
                "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
             SWIFT_VERSION = "5.0";
          };
@@ -561,7 +553,7 @@
                "-target",
                "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
             SWIFT_VERSION = "5.0";
          };
@@ -625,7 +617,7 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.0";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "bcc";
             TVOS_DEPLOYMENT_TARGET = "9.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
@@ -666,7 +658,7 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.0";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "bcc";
             TVOS_DEPLOYMENT_TARGET = "9.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
@@ -726,15 +718,15 @@
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "4",
+               "5",
                "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
                "-target",
                "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "4.0";
+            SWIFT_VERSION = "5.0";
          };
          name = "Debug";
       };
@@ -744,15 +736,15 @@
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "4",
+               "5",
                "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
                "-target",
                "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "4.0";
+            SWIFT_VERSION = "5.0";
          };
          name = "Release";
       };
@@ -842,7 +834,7 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.0";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "bccTests";
             TVOS_DEPLOYMENT_TARGET = "9.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
@@ -881,7 +873,7 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.0";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "bccTests";
             TVOS_DEPLOYMENT_TARGET = "9.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
@@ -974,7 +966,7 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.0";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "srt";
             TVOS_DEPLOYMENT_TARGET = "9.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
@@ -1015,7 +1007,7 @@
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.0";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "srt";
             TVOS_DEPLOYMENT_TARGET = "9.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
@@ -1067,15 +1059,15 @@
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "4",
+               "5",
                "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
                "-target",
                "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "4.0";
+            SWIFT_VERSION = "5.0";
          };
          name = "Debug";
       };
@@ -1085,15 +1077,15 @@
             LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
                "-swift-version",
-               "4",
+               "5",
                "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
                "-target",
                "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
             );
-            SWIFT_VERSION = "4.0";
+            SWIFT_VERSION = "5.0";
          };
          name = "Release";
       };
@@ -1136,15 +1128,15 @@
             "OBJ_24",
             "OBJ_25"
          );
-         name = "srt 1.0.1";
-         path = ".build/checkouts/srt.git--8965443637628123509/Sources";
+         name = "srt 1.1.0";
+         path = ".build/checkouts/srt/Sources";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_22" = {
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/srt.git--8965443637628123509/Package.swift";
+         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/srt/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_23" = {
@@ -1179,14 +1171,14 @@
             "OBJ_38"
          );
          name = "Rainbow 3.1.4";
-         path = ".build/checkouts/Rainbow.git-208604798073090910/Sources";
+         path = ".build/checkouts/Rainbow/Sources";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_27" = {
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/Rainbow.git-208604798073090910/Package.swift";
+         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/Rainbow/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_28" = {
@@ -1214,6 +1206,7 @@
                "SWIFT_PACKAGE=1",
                "DEBUG=1"
             );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
             ONLY_ACTIVE_ARCH = "YES";
             OTHER_SWIFT_FLAGS = (
                "-DXcode"
@@ -1307,6 +1300,7 @@
                "$(inherited)",
                "SWIFT_PACKAGE=1"
             );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_SWIFT_FLAGS = (
                "-DXcode"
             );
@@ -1344,7 +1338,7 @@
             "OBJ_49"
          );
          name = "Commandant";
-         path = ".build/checkouts/Commandant.git-8599198715692502122/Sources/Commandant";
+         path = ".build/checkouts/Commandant/Sources/Commandant";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_41" = {
@@ -1410,7 +1404,7 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/Commandant.git-8599198715692502122/Package.swift";
+         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/Commandant/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_51" = {
@@ -1432,7 +1426,7 @@
             "OBJ_56"
          );
          name = "Result";
-         path = ".build/checkouts/Result.git-4821188866044467991/Result";
+         path = ".build/checkouts/Result/Result";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_53" = {
@@ -1459,19 +1453,19 @@
          isa = "PBXFileReference";
          explicitFileType = "sourcecode.swift";
          name = "Package.swift";
-         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/Result.git-4821188866044467991/Package.swift";
+         path = "/Users/apollonian/Documents/Git-Repo/bcc/.build/checkouts/Result/Package.swift";
          sourceTree = "<group>";
       };
       "OBJ_58" = {
          isa = "PBXGroup";
          children = (
-            "Rainbow::Rainbow::Product",
+            "Commandant::Commandant::Product",
             "srt::srt::Product",
-            "Result::Result::Product",
-            "bcc::2bcc::Product",
             "bcc::bccTests::Product",
-            "bcc::bcc::Product",
-            "Commandant::Commandant::Product"
+            "bcc::2bcc::Product",
+            "Result::Result::Product",
+            "Rainbow::Rainbow::Product",
+            "bcc::bcc::Product"
          );
          name = "Products";
          path = "";
@@ -1544,7 +1538,7 @@
             );
             SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
             SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.0";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "2bcc";
             TVOS_DEPLOYMENT_TARGET = "9.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
@@ -1583,7 +1577,7 @@
             );
             SWIFT_FORCE_DYNAMIC_LINK_STDLIB = "YES";
             SWIFT_FORCE_STATIC_LINK_STDLIB = "NO";
-            SWIFT_VERSION = "4.0";
+            SWIFT_VERSION = "5.0";
             TARGET_NAME = "2bcc";
             TVOS_DEPLOYMENT_TARGET = "9.0";
             WATCHOS_DEPLOYMENT_TARGET = "2.0";
@@ -1703,12 +1697,10 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "bcc.xcodeproj/Commandant_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -1727,8 +1719,6 @@
             );
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "Commandant";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Debug";
       };
@@ -1744,12 +1734,10 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "bcc.xcodeproj/Commandant_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "8.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -1768,8 +1756,6 @@
             );
             SWIFT_VERSION = "4.0";
             TARGET_NAME = "Commandant";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Release";
       };
