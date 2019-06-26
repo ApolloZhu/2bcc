@@ -34,6 +34,20 @@ struct ConvertCommand: CommandProtocol {
         let outputPath: String
         let isVerbose: Bool
         
+        static func make(inputPath: String,
+                         inputFormat: InputFile.Format,
+                         inputEncoding: InputFile.Encoding,
+                         outputPath: String,
+                         isVerbose: Bool) -> Options {
+            return Options(
+                inputPath: inputPath,
+                inputFormat: inputFormat,
+                inputEncoding: inputEncoding,
+                outputPath: outputPath,
+                isVerbose: isVerbose
+            )
+        }
+        
         static func evaluate(_ m: CommandMode) -> Result<Options, CLIError> {
             let input: Result<String, CLIError> =
                 m <| Argument(usage: "Path to the input caption file. Only supports srt.")
@@ -75,7 +89,7 @@ struct ConvertCommand: CommandProtocol {
                         }
                     }
             }
-            return curry(self.init) <*> input <*> format <*> encoding <*> output
+            return curry(make) <*> input <*> format <*> encoding <*> output
                 <*> m <| Switch(flag: "v", key: "verbose", usage: "Show verbose output")
         }
     }
@@ -92,8 +106,6 @@ extension CommandLine {
             case .success? = commands.run(command: "convert", arguments: [args[1]]) {
             exit(EXIT_SUCCESS)
         }
-        commands.main(arguments: args, defaultVerb: "help") { error in
-            fputs(error.localizedDescription + "\n", stderr)
-        }
+        commands.main(arguments: args, defaultVerb: "help") { _ in }
     }
 }
