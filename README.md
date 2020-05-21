@@ -22,7 +22,7 @@ A tool to convert srt (subrip) files to bcc files.
 2. Run the following commands in Terminal or other command line interface applications:
 
 ```sh
-git clone https://github.com/ApolloZhu/bcc.git
+git clone https://github.com/Apollonyan/bcc.git
 cd bcc
 ```
 

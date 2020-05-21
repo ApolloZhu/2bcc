@@ -48,7 +48,7 @@
       },
       {
         "package": "srt",
-        "repositoryURL": "https://github.com/ApolloZhu/srt.git",
+        "repositoryURL": "https://github.com/Apollonyan/srt.git",
         "state": {
           "branch": null,
           "revision": "f0cdd83b5f4dcca5901961433d888833a3677a9c",
