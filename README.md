@@ -2,10 +2,18 @@
 
 Abstraction of the bilibili closed caption (bcc) format.
 
+## Deprecation Notice
+
+Migrated to https://github.com/Apollonyan/subtitle
+
+本项目已迁移至 https://github.com/Apollonyan/subtitle
+
+---
+
 ## Swift Package Manager
 
 ```swift
-.package(url: "https://github.com/Carthage/Commandant.git", from: "1.0.1")
+.package(url: "https://github.com/Apollonyan/bcc.git", from: "1.0.1")
 ```
 
 ---
